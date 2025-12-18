@@ -11,14 +11,14 @@ const Grid = ({ cells, onCellUpdate }) => {
             <th style={{ 
               border: '1px solid #ddd', 
               padding: '8px', 
-              backgroundColor: '#f5f5f5', 
+              backgroundColor: '#4a5568', 
               minWidth: '40px' 
             }}></th>
             {COLS.map(col => (
               <th key={col} style={{ 
                 border: '1px solid #ddd', 
                 padding: '8px', 
-                backgroundColor: '#f5f5f5',
+                backgroundColor: '#4a5568',
                 fontWeight: 'bold',
                 minWidth: '80px'
               }}>
