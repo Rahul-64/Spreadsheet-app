@@ -33,7 +33,7 @@ const Grid = ({ cells, onCellUpdate }) => {
               <td style={{ 
                 border: '1px solid #ddd', 
                 padding: '8px', 
-                backgroundColor: '#f5f5f5',
+                backgroundColor: '#4a5568',
                 fontWeight: 'bold',
                 textAlign: 'center'
               }}>
